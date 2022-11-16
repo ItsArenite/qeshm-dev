@@ -159,13 +159,13 @@ input:checked+.slider:before {
 #alert {
     background-color: rgb(255, 96, 96);
     border-radius: 18px;
-    width: 92vw;
+    width: 97vw;
     transition: transform 0.5s;
 
 }
 
 #alert:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     opacity: 0.9;
 }
 
