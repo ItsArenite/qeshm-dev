@@ -11,11 +11,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     </head>
     
     <body>
       <div class="main">
-        <h1 class="alert">Artemis one is about to launch! Check it out <a href="https://www.youtube.com/watch?v=CMLD0Lp0JBg">here</a></h1>
+        <h1 id="alert">Artemis one is about to launch! Check it out <a href="https://www.youtube.com/watch?v=CMLD0Lp0JBg">here</a><button onclick="hidealert()" id="close"><span class="material-symbols-outlined">
+          close
+          </span></button></h1>
         <div id="switch">
           <!-- <label class="switch">
             <input type="checkbox" id="dark" />
@@ -45,7 +48,18 @@
         <a href="https://music.qeshm.dev" class="apple"> Music Player </a>
       </div>
     </div>
+    <script>
+      
+        const btn = document.getElementById("close");
+        
+        btn.addEventListener('click', () => {
+          
+          const alert = document.getElementById("alert");
+          alert.style.display = 'none';
 
+        })
+      
+    </script>
     <script
       data-name="BMC-Widget"
       data-cfasync="false"

@@ -156,7 +156,7 @@ input:checked+.slider:before {
     --bg: #1c1c1c;
 }
 
-.alert {
+#alert {
     background-color: rgb(255, 96, 96);
     border-radius: 18px;
     width: 92vw;
@@ -164,7 +164,15 @@ input:checked+.slider:before {
 
 }
 
-.alert:hover {
+#alert:hover {
     transform: scale(1.05);
     opacity: 0.9;
+}
+
+#close {
+    float: right;
+    border-radius: 50%;
+    background-color: rgb(255, 96, 96);
+    border: none;
+    height: 50px;
 }
