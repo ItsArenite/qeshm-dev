@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 :root {
-    --main: #321d70;
-    --btnbg: #e4f6f8;
-    --bg: #f8e6e4;
+    --main: rgb(0, 0, 0);
+    --btnbg: #ff5727;
+    --bg: #a7ebff;
 }
 
 * {
@@ -157,7 +157,7 @@ input:checked+.slider:before {
 }
 
 #alert {
-    background-color: rgb(255, 96, 96);
+    background-color: #fec89a;
     border-radius: 18px;
     width: 97vw;
     transition: transform 0.5s;
@@ -172,7 +172,7 @@ input:checked+.slider:before {
 #close {
     float: right;
     border-radius: 50%;
-    background-color: rgb(255, 96, 96);
+    background-color: #fec89a;
     border: none;
     height: 50px;
 }
